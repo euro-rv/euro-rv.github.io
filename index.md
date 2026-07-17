@@ -162,7 +162,7 @@ Topics include, but are not limited to:
 
   <div class="organizer">
     <div class="photo-name">
-      <img src="{{ 'organizer-placeholder.svg' | relative_url }}" alt="Julian Pavon">
+      <img src="{{ 'pics/julian-pavon.jpg' | relative_url }}" alt="Julian Pavon">
       <p>Julian Pavon</p>
     </div>
     <div class="bio">
@@ -173,7 +173,7 @@ Topics include, but are not limited to:
 
   <div class="organizer">
     <div class="photo-name">
-      <img src="{{ 'organizer-placeholder.svg' | relative_url }}" alt="Nitesh Narayana GS">
+      <img src="{{ 'pics/nitesh-narayana-gs.jpg' | relative_url }}" alt="Nitesh Narayana GS">
       <p>Nitesh Narayana GS</p>
     </div>
     <div class="bio">
@@ -184,7 +184,7 @@ Topics include, but are not limited to:
 
   <div class="organizer">
     <div class="photo-name">
-      <img src="{{ 'organizer-placeholder.svg' | relative_url }}" alt="Negin Mahani">
+      <img src="{{ 'pics/negin-mahani.png' | relative_url }}" alt="Negin Mahani">
       <p>Negin Mahani</p>
     </div>
     <div class="bio">
@@ -195,7 +195,7 @@ Topics include, but are not limited to:
 
   <div class="organizer">
     <div class="photo-name">
-      <img src="{{ 'organizer-placeholder.svg' | relative_url }}" alt="Sourav Sengupta">
+      <img src="{{ 'pics/sourav-sengupta.png' | relative_url }}" alt="Sourav Sengupta">
       <p>Sourav Sengupta</p>
     </div>
     <div class="bio">
@@ -206,12 +206,23 @@ Topics include, but are not limited to:
 
   <div class="organizer">
     <div class="photo-name">
-      <img src="{{ 'organizer-placeholder.svg' | relative_url }}" alt="Arindam Mallik">
+      <img src="{{ 'pics/arindam-mallik.png' | relative_url }}" alt="Arindam Mallik">
       <p>Arindam Mallik</p>
     </div>
     <div class="bio">
       <p><i>Interuniversity Microelectronics Centre (IMEC)</i></p>
       <p>Arindam Mallik is the Department Director for Compute System Architecture (CSA) at IMEC. He is a technologist enabling HW-SW co-design at the cross-point of AI algorithms, computer architecture, and novel technology solutions. Arindam has spent the past 20 years pushing the boundaries of technology research to provide novel solutions with a direct impact on the semiconductor industry. He has authored or co-authored more than 100 papers in international journals and conference proceedings and holds a number of relevant patents. He received M.S. and PhD degrees in Electrical Engineering and Computer Science from Northwestern University, USA in 2004 and 2008, respectively.</p>
+    </div>
+  </div>
+
+  <div class="organizer">
+    <div class="photo-name">
+      <img src="{{ 'organizer-placeholder.svg' | relative_url }}" alt="Julian Pavon">
+      <p>Pablo Balbi</p>
+    </div>
+    <div class="bio">
+      <p><i>Barcelona Supercomputing Center (BSC)</i></p>
+      <p>Julian Pavon is a Research Engineer at the Barcelona Supercomputing Center. He earned his PhD from the Universitat Politècnica de Catalunya. His research interests include general-purpose computer architecture, vector architectures, and hardware-software co-design for data-intensive workloads. His research is published in top-tier venues, including ISCA, HPCA, MICRO and CAL, among others. Julian has worked on designing and developing different hardware modules for multiple manufactured RISC-V cores.</p>
     </div>
   </div>
 
