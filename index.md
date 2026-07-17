@@ -217,7 +217,7 @@ Topics include, but are not limited to:
 
   <div class="organizer">
     <div class="photo-name">
-      <img src="{{ 'organizer-placeholder.svg' | relative_url }}" alt="Julian Pavon">
+      <img src="{{ 'pics/pablo-balbi.jpeg' | relative_url }}" alt="Julian Pavon">
       <p>Pablo Balbi</p>
     </div>
     <div class="bio">
