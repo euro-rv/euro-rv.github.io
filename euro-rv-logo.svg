@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="200" viewBox="0 0 700 200" role="img" aria-label="Euro-RV Workshop logo placeholder">
+  <rect width="700" height="200" rx="12" fill="#f2f8fa" stroke="#15A9BA" stroke-width="3"/>
+  <text x="350" y="72" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="44" font-weight="700" fill="#15A9BA">Euro-RV</text>
+  <text x="350" y="108" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1C538E">European Workshop on Hardware-Software Co-Design</text>
+  <text x="350" y="134" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1C538E">for Future RISC-V Architectures</text>
+  <text x="350" y="168" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#E48158">MICRO 2026 — replace with final logo</text>
+</svg>

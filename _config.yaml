@@ -1,0 +1,6 @@
+remote_theme: pages-themes/primer@v0.6.0
+plugins:
+  - jekyll-remote-theme
+
+title: Euro-RV — European Workshop on Hardware-Software Co-Design for Future RISC-V Architectures
+description: Euro-RV @ MICRO 2026 — BSC & IMEC
