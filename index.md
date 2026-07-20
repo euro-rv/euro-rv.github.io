@@ -47,6 +47,10 @@ Venue located in conjunction with [the 59th IEEE/ACM International Symposium on 
 - **Notification:** September 30, 2026
 - **Workshop Date:** _To be defined_, but candidate dates are October 31 or November 1, 2026.
 
+## Agenda & Workshop Materials {#agenda-materials}
+
+{% include_relative agenda.html %}
+
 ## Workshop Description {#description}
 
 The increasing demands and rapid evolution of AI, vector processing,
@@ -162,43 +166,3 @@ and practical systems, in **demo** format.
   {% endfor %}
 
 </div>
-
-## Agenda & Workshop Materials {#agenda-materials}
-
-<p><em>The workshop agenda will be announced after the submission deadline. Check back for invited talks, contributed presentations, demos, and panel sessions.</em></p>
-
-<style>
-  table.agenda { width:100%; border-collapse: collapse; table-layout: fixed; }
-  table.agenda th, table.agenda td { border: 2px solid #bbb; padding: 8px; text-align:left; }
-  table.agenda thead { background:#15A9BB; color:#000; }
-  table.agenda tbody { color:#000; }
-  table.agenda tbody.session tr:nth-child(odd)  { background:#ffffff; }
-  table.agenda tbody.session tr:nth-child(even) { background:#f2f8fa; }
-  table.agenda tbody.break tr td {
-    background:#d8ebe7; font-weight:700; text-align:center;
-  }
-</style>
-
-<table class="agenda">
-  <colgroup>
-    <col style="width:12%;">
-    <col style="width:32%;">
-    <col style="width:18%;">
-    <col style="width:38%;">
-  </colgroup>
-
-  <thead>
-    <tr>
-      <th>Time</th>
-      <th>Speaker</th>
-      <th>Domain</th>
-      <th>Title</th>
-    </tr>
-  </thead>
-
-  <tbody class="session">
-    <tr>
-      <td colspan="4" style="text-align:center; font-style:italic;">Agenda to be announced</td>
-    </tr>
-  </tbody>
-</table>
