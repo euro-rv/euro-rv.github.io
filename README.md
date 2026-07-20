@@ -8,22 +8,6 @@ Layout adapted from the [Arch4Health](https://github.com/nikamgh/arch4health) wo
 
 ## Local preview
 
-### Quick preview (no Ruby/Jekyll)
-```bash
-./serve
-```
-
-Opens [http://127.0.0.1:4000](http://127.0.0.1:4000). Uses a tiny Python server that renders `index.md` on the fly. On first run it may install the `markdown` pip package.
-
-Options:
-
-```bash
-./serve --port 8080      # custom port
-./serve --no-open        # don't open a browser tab
-```
-
-### Full Jekyll preview (matches GitHub Pages exactly)
-
 ```bash
 bundle install
 bundle exec jekyll serve
