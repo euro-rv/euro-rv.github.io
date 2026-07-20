@@ -19,6 +19,19 @@
     background-color: #0f7f89;
   }
 
+  @media (max-width: 640px) {
+    .nav-buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    .nav-buttons a {
+      margin-right: 0;
+      width: 100%;
+    }
+  }
+
   h1 { color: #15A9BA; }
   h2 { color: #15A9BA; }
   h3 { color: #1C538E; }
@@ -146,6 +159,32 @@ and practical systems, in **demo** format.
   }
   .organizer .bio p:first-child {
     margin-top: 0;
+  }
+
+  @media (max-width: 640px) {
+    .organizer {
+      flex-direction: column;
+    }
+
+    .organizer .photo-name {
+      align-items: center;
+      display: flex;
+      gap: 0.75rem;
+      margin-bottom: 0.75rem;
+      margin-right: 0;
+      text-align: left;
+      width: 100%;
+    }
+
+    .organizer .photo-name img {
+      flex: 0 0 auto;
+      margin-bottom: 0;
+      width: 72px;
+    }
+
+    .organizer .bio {
+      width: 100%;
+    }
   }
 </style>
 
