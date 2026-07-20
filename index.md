@@ -37,9 +37,15 @@
   emphasizing hardware-software co-design across AI, HPC, and emerging workloads
 </h3>
 
-**October 31 or November 1, 2026, Athens, Greece**  
-**In conjunction with [the 59th IEEE/ACM International Symposium on Microarchitecture (MICRO 2026)](https://microarch.org/micro59/)**  
-**Organized by [Barcelona Supercomputing Center (BSC)](https://www.bsc.es/) and [IMEC](https://www.imec-int.com/)**
+Venue located in conjunction with [the 59th IEEE/ACM International Symposium on Microarchitecture (MICRO 2026)](https://microarch.org/micro59/). Organized by [Barcelona Supercomputing Center (BSC)](https://www.bsc.es/) and [IMEC](https://www.imec-int.com/).
+
+****  
+
+## Key Dates {#key-dates}
+
+- **Submission Deadline:** August 31 2026
+- **Notification:** September 30, 2026
+- **Workshop Date:** _To be defined_, but candidate dates are October 31 or November 1, 2026.
 
 ## Workshop Description {#description}
 
@@ -95,12 +101,6 @@ and practical systems, in **demo** format.
 - Paper submission system will be defined in the coming weeks.
 - Reviewing will be single-blind: please include all authors information. Changes to the authors list after submission won't be allowed.
 - We welcome submissions that include parts of ongoing work intended for a future conference submission.
-
-## Key Dates {#key-dates}
-
-- **Submission Deadline:** August 31 2026
-- **Notification:** September 30, 2026
-- **Workshop Date:** _To be defined_, but candidate dates are October 31 or November 1, 2026.
 
 ## Organizers {#organizers}
 
