@@ -44,19 +44,46 @@
 
 ## Workshop Description {#description}
 
-**<span style="color: #E48158;">Motivation</span>.** The increasing demands and rapid evolution of AI, vector processing, heterogeneous computing systems, and other emerging computational domains are driving architectural innovation beyond the limits of today's conventional designs. Modern workloads in scientific computing, machine learning, data analytics, graph processing, and adaptive systems require new approaches in compute architectures, memory hierarchies, communication fabrics, resilience, and hardware-software co-design.
+The increasing demands and rapid evolution of AI, vector processing,
+heterogeneous computing systems, and other emerging computational domains are
+driving architectural innovation beyond the limits of today’s conventional
+designs. Modern workloads in scientific computing, machine learning, data
+analytics, graph processing, and adaptive systems require new approaches in
+compute architectures, memory hierarchies, communication fabrics, resilience,
+and hardware-software co-design. 
 
-**<span style="color: #E48158;">The RISC-V Opportunity</span>.** RISC-V has evolved from an academic initiative into a widely adopted open standard embraced by both industry and academia. Its open and modular instruction set architecture provides unprecedented flexibility for researchers and companies to explore domain-specific hardware acceleration, custom instruction extensions, specialized vector and AI processing units, and tightly integrated hardware-software optimizations. This openness significantly lowers the barrier for architectural experimentation, enables faster innovation cycles compared to traditional closed ISAs, and creates new opportunities for collaborative research and industrial adoption.
+At the same time, RISC-V has evolved from an academic initiative into a widely
+adopted open standard embraced by both industry and academia. Its open and
+modular instruction set architecture provides unprecedented flexibility for
+researchers and companies to explore domain-specific hardware acceleration,
+custom instruction extensions, specialized vector and AI processing units, and
+tightly integrated hardware-software optimizations. This openness significantly
+lowers the barrier for architectural experimentation, enables faster innovation
+cycles compared to traditional closed ISAs, and creates new opportunities for
+collaborative research and industrial adoption. 
 
-**<span style="color: #E48158;">Euro-RV</span>.** Euro-RV aims to bring together researchers exploring forward-looking ideas for next-generation RISC-V computing systems. The workshop emphasizes pathfinding research: exploratory concepts, early-stage architectures, and enabling technologies that may shape future large-scale deployments and computing platforms.
+**Euro-RV** aims to bring together researchers exploring forward-looking ideas
+for next-generation RISC-V computing systems. The workshop emphasizes
+pathfinding research: exploratory concepts, early-stage architectures, and
+enabling technologies that may shape future large-scale deployments and
+computing platforms.
 
-**<span style="color: #E48158;">Program & Community</span>.** The workshop program will consist of a combination of invited talks, demos, and discussion panels, together with contributions selected from the open call for contributions. We are committed to fostering an inclusive and diverse workshop community, promoting broad participation among organizers and speakers, and continuously improving our efforts through community feedback.
+The workshop program will consist of a combination of invited talks, demos, and
+discussion panels, together with contributions selected from the open call for
+contributions.
 
-**Time & Location:** TBD — half-day workshop, co-located with MICRO 2026 in Athens, Greece.
+We are committed to fostering an inclusive and diverse workshop community,
+promoting broad participation among organizers and speakers, and continuously
+improving our efforts through community feedback.
+
+**Time & Location:** TBD — half-day workshop, co-located with [MICRO 2026](https://www.microarch.org/micro59/) in [Athens, Greece](https://maps.app.goo.gl/fDhQVDkrMd4HcB787).
 
 ## Call for Contributions {#call-for-contributions}
 
-We welcome contributions spanning hardware, software, system architecture, and cross-layer co-design. In addition to traditional paper and talk submissions, we also strongly encourage demonstrations of mature technologies, prototypes, and practical systems, in demo format.
+We welcome contributions spanning hardware, software, system architecture, and
+cross-layer co-design. In addition to traditional paper and talk submissions,
+we also strongly encourage demonstrations of mature technologies, prototypes,
+and practical systems, in **demo** format.
 
 ### Topics of Interest
 
@@ -108,16 +135,16 @@ Topics include, but are not limited to:
 ### Submission Instructions
 
 - We welcome submissions of up to 2 pages (not including references). This is not a strict limit, but authors are encouraged to adhere to it if possible.
-- All submissions must be in PDF format and should follow the main conference LaTeX template.
-- Please submit your paper via **[EasyChair](#)** *(link to be added)*.
-- Reviewing will be single-blind: please include all authors' information. Changes to the authors list after submission won't be allowed.
+- All submissions must be in PDF format and should follow the main conference [LaTeX template](https://www.microarch.org/micro59/submit/micro59-latex-template.zip).
+- Paper submission system will be defined in the coming weeks.
+- Reviewing will be single-blind: please include all authors information. Changes to the authors list after submission won't be allowed.
 - We welcome submissions that include parts of ongoing work intended for a future conference submission.
 
 ## Key Dates {#key-dates}
 
-- **Submission Deadline:** TBD
-- **Notification:** TBD
-- **Workshop Date:** October 31 or November 1, 2026
+- **Submission Deadline:** August 31 2026
+- **Notification:** September 30, 2026
+- **Workshop Date:** _To be defined_, but candidate dates are October 31 or November 1, 2026.
 
 ## Organizers {#organizers}
 
