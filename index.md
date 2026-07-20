@@ -87,50 +87,7 @@ and practical systems, in **demo** format.
 
 ### Topics of Interest
 
-Topics include, but are not limited to:
-
-- **Vector and General-Purpose Architectures**
-  - Vector processing architectures
-  - Reconfigurable VPUs and adaptive execution engines
-  - Memory management accelerators
-  - Novel ISA and microarchitectural extensions
-  - Energy-efficient and power-aware architectures
-  - Scalable manycore and heterogeneous systems
-- **High-Performance Computing**
-  - Scalable HPC architectures and exascale systems
-  - HPC-oriented RISC-V processors and accelerators
-  - Communication-efficient distributed computing systems
-  - Runtime systems and compiler optimizations for HPC
-  - Hardware/software co-design for scientific computing
-  - Energy-efficient HPC systems and sustainability
-  - Heterogeneous HPC platforms integrating CPUs, GPUs, and AI accelerators
-  - Fault tolerance, resilience, and reliability in large-scale systems
-- **AI and Accelerators**
-  - On-device learning and refinement hardware
-  - Training-aware AI accelerators
-  - Scalable AI communication infrastructures
-  - Distributed and multi-AIPU systems
-  - Sparse and irregular workload acceleration
-  - AI hardware/software co-design
-- **Reliability and System Architecture**
-  - Reliability, Availability, and Serviceability (RAS)
-  - Fault tolerance and resilient architectures
-  - Runtime monitoring and adaptive systems
-  - Security and trustworthy architectures
-- **Hardware-Software Co-Design**
-  - Compiler and runtime innovations
-  - Emerging software stacks for heterogeneous systems
-  - Application-driven architectural exploration
-  - Performance modeling and simulation
-  - Hardware/software co-design methodologies
-  - Programming models for future architectures
-- **Emerging Applications**
-  - Scientific computing
-  - Data analytics and databases
-  - Genomics and bioinformatics
-  - Adaptive and autonomous systems
-  - Foundation model infrastructure
-  - HPC-AI convergence
+{% include_relative topics-of-interest.html %}
 
 ### Submission Instructions
 
