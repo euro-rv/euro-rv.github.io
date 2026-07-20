@@ -2,6 +2,7 @@
 
 <style>
   .nav-buttons {
+    text-align: center;
     margin-bottom: 1.5rem;
   }
   .nav-buttons a {
@@ -30,8 +31,6 @@
   <a href="#organizers">Organizers</a>
   <a href="#agenda-materials">Agenda & Materials</a>
 </div>
-
-![Euro-RV Workshop Logo](euro-rv-logo.svg){: width="700px" }
 
 <h3 style="color: #E48158;font-style: italic;">
   A half-day workshop on pathfinding research for next-generation RISC-V computing systems, <br>
