@@ -9,7 +9,6 @@ Layout adapted from the [Arch4Health](https://github.com/nikamgh/arch4health) wo
 ## Local preview
 
 ### Quick preview (no Ruby/Jekyll)
-
 ```bash
 ./serve
 ```
@@ -31,23 +30,6 @@ bundle exec jekyll serve
 ```
 
 Open [http://localhost:4000](http://localhost:4000).
-
-## What to edit
-
-| File | Purpose |
-|------|---------|
-| `_config.yaml` | Site title and description (browser tab / SEO) |
-| `index.md` | All page content: description, CFP, dates, organizers, agenda |
-| `euro-rv-logo.svg` | Replace with your workshop logo (PNG also works) |
-| `organizer-placeholder.svg` | Replace with one JPEG/PNG per organizer |
-
-Remaining placeholders in `index.md`:
-
-- EasyChair submission URL
-- Key dates (submission deadline, notification)
-- Organizer photos (replace `organizer-placeholder.svg`)
-- Final logo (replace `euro-rv-logo.svg`)
-- Agenda (after CFP closes)
 
 ## Deploy on GitHub Pages
 
