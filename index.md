@@ -120,6 +120,10 @@ and practical systems, in **demo** format.
     text-align: center;
     margin-right: 1.5rem;
   }
+  .organizer .photo-name .text-role {
+    color: #CFCFCF;
+    font-weight: 300; // Light
+  }
   .organizer .photo-name img {
     width: 120px;
     height: auto;
@@ -144,71 +148,19 @@ and practical systems, in **demo** format.
 
 <div class="organizers">
 
+  {% for organizer in site.data.organizers %}
   <div class="organizer">
     <div class="photo-name">
-      <img src="{{ 'pics/julian-pavon.jpg' | relative_url }}" alt="Julian Pavon">
-      <p>Julian Pavon</p>
+      <img src="{{ organizer.photo | relative_url }}" alt="{{ organizer.name }}">
+      <p>{{ organizer.name }}</p>
+      <p class="text-role">({{ organizer.role }})</p>
     </div>
     <div class="bio">
-      <p><i>Barcelona Supercomputing Center (BSC)</i></p>
-      <p>Julian Pavon is a Research Engineer at the Barcelona Supercomputing Center. He earned his PhD from the Universitat Politècnica de Catalunya. His research interests include general-purpose computer architecture, vector architectures, and hardware-software co-design for data-intensive workloads. His research is published in top-tier venues, including ISCA, HPCA, MICRO and CAL, among others. Julian has worked on designing and developing different hardware modules for multiple manufactured RISC-V cores.</p>
+      <p><i>{{ organizer.affiliation }}</i></p>
+      <p>{{ organizer.bio }}</p>
     </div>
   </div>
-
-  <div class="organizer">
-    <div class="photo-name">
-      <img src="{{ 'pics/nitesh-narayana-gs.jpg' | relative_url }}" alt="Nitesh Narayana GS">
-      <p>Nitesh Narayana GS</p>
-    </div>
-    <div class="bio">
-      <p><i>Barcelona Supercomputing Center (BSC)</i></p>
-      <p>Nitesh Narayana GS is currently a Senior Research Engineer in the Computer Architecture for Parallel Paradigms group at the Barcelona Supercomputing Center and a PhD student at Universitat Politècnica de Catalunya. Before that, he received his Bachelor and Master of Technology Dual Degree in Computer Engineering and Design from the Indian Institute of Information Technology Design and Manufacturing (IIITDM) Kancheepuram, Tamil Nadu, India. His current research focuses on energy-efficient architectures, ranging from microarchitectural to system-level optimisations.</p>
-    </div>
-  </div>
-
-  <div class="organizer">
-    <div class="photo-name">
-      <img src="{{ 'pics/negin-mahani.png' | relative_url }}" alt="Negin Mahani">
-      <p>Negin Mahani</p>
-    </div>
-    <div class="bio">
-      <p><i>Barcelona Supercomputing Center (BSC)</i></p>
-      <p>Negin Mahani is a Senior Researcher and Associate Technical Coordinator for the six Technical Areas of DARE, a flagship EuroHPC project, at the Barcelona Supercomputing Center (BSC). Her research focuses on GPU microarchitecture, deep learning acceleration, in-memory computing, and hardware–software co-design. She received her Ph.D. in Computer Architecture from Sharif University of Technology, and her M.Sc. and B.Sc. from the University of Tehran and Bahonar University of Kerman, respectively. She has also held an academic position as tenure-track Assistant Professor and served in faculty coordination and academic leadership roles in Bahonar University, Zarand Faculty.</p>
-    </div>
-  </div>
-
-  <div class="organizer">
-    <div class="photo-name">
-      <img src="{{ 'pics/sourav-sengupta.png' | relative_url }}" alt="Sourav Sengupta">
-      <p>Sourav Sengupta</p>
-    </div>
-    <div class="bio">
-      <p><i>Interuniversity Microelectronics Centre (IMEC)</i></p>
-      <p>Sourav Sengupta is the R&amp;D Group Leader for Future System Architecture (FSA) at CSA, imec. He comes from an interdisciplinary background with a PhD in Computer Science (2014), a Master's in Pure Mathematics (2008), and a Bachelor's in Electronics Engineering (2006). With over 15 years of research experience and more than 10 years of teaching across four countries, he brings a global and cross-disciplinary perspective to innovation and leadership. Sourav is a technical coordinator in the flagship EuroHPC project DARE, leading one of the six Technical Areas, as well as an IMEC team designing and developing scale-out performance model for virtual integration and pathfinding.</p>
-    </div>
-  </div>
-
-  <div class="organizer">
-    <div class="photo-name">
-      <img src="{{ 'pics/arindam-mallik.png' | relative_url }}" alt="Arindam Mallik">
-      <p>Arindam Mallik</p>
-    </div>
-    <div class="bio">
-      <p><i>Interuniversity Microelectronics Centre (IMEC)</i></p>
-      <p>Arindam Mallik is the Department Director for Compute System Architecture (CSA) at IMEC. He is a technologist enabling HW-SW co-design at the cross-point of AI algorithms, computer architecture, and novel technology solutions. Arindam has spent the past 20 years pushing the boundaries of technology research to provide novel solutions with a direct impact on the semiconductor industry. He has authored or co-authored more than 100 papers in international journals and conference proceedings and holds a number of relevant patents. He received M.S. and PhD degrees in Electrical Engineering and Computer Science from Northwestern University, USA in 2004 and 2008, respectively.</p>
-    </div>
-  </div>
-
-  <div class="organizer">
-    <div class="photo-name">
-      <img src="{{ 'pics/pablo-balbi.jpeg' | relative_url }}" alt="Julian Pavon">
-      <p>Pablo Balbi</p>
-    </div>
-    <div class="bio">
-      <p><i>Barcelona Supercomputing Center (BSC)</i></p>
-      <p>Julian Pavon is a Research Engineer at the Barcelona Supercomputing Center. He earned his PhD from the Universitat Politècnica de Catalunya. His research interests include general-purpose computer architecture, vector architectures, and hardware-software co-design for data-intensive workloads. His research is published in top-tier venues, including ISCA, HPCA, MICRO and CAL, among others. Julian has worked on designing and developing different hardware modules for multiple manufactured RISC-V cores.</p>
-    </div>
-  </div>
+  {% endfor %}
 
 </div>
 

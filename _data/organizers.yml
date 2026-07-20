@@ -1,0 +1,42 @@
+- name: Julian Pavon
+  photo: pics/julian-pavon.jpg
+  affiliation: Barcelona Supercomputing Center (BSC)
+  role: Chair
+  bio: >-
+    Julian Pavon is a Research Engineer at the Barcelona Supercomputing Center. He earned his PhD from the Universitat Politècnica de Catalunya. His research interests include general-purpose computer architecture, vector architectures, and hardware-software co-design for data-intensive workloads. His research is published in top-tier venues, including ISCA, HPCA, MICRO and CAL, among others. Julian has worked on designing and developing different hardware modules for multiple manufactured RISC-V cores.
+
+- name: Nitesh Narayana GS
+  photo: pics/nitesh-narayana-gs.jpg
+  affiliation: Barcelona Supercomputing Center (BSC)
+  role: Chair
+  bio: >-
+    Nitesh Narayana GS is currently a Senior Research Engineer in the Computer Architecture for Parallel Paradigms group at the Barcelona Supercomputing Center and a PhD student at Universitat Politècnica de Catalunya. Before that, he received his Bachelor and Master of Technology Dual Degree in Computer Engineering and Design from the Indian Institute of Information Technology Design and Manufacturing (IIITDM) Kancheepuram, Tamil Nadu, India. His current research focuses on energy-efficient architectures, ranging from microarchitectural to system-level optimisations.
+
+- name: Negin Mahani
+  photo: pics/negin-mahani.png
+  affiliation: Barcelona Supercomputing Center (BSC)
+  role: Chair
+  bio: >-
+    Negin Mahani is a Senior Researcher and Associate Technical Coordinator for the six Technical Areas of DARE, a flagship EuroHPC project, at the Barcelona Supercomputing Center (BSC). Her research focuses on GPU microarchitecture, deep learning acceleration, in-memory computing, and hardware–software co-design. She received her Ph.D. in Computer Architecture from Sharif University of Technology, and her M.Sc. and B.Sc. from the University of Tehran and Bahonar University of Kerman, respectively. She has also held an academic position as tenure-track Assistant Professor and served in faculty coordination and academic leadership roles in Bahonar University, Zarand Faculty.
+
+- name: Sourav Sengupta
+  photo: pics/sourav-sengupta.png
+  affiliation: Interuniversity Microelectronics Centre (IMEC)
+  role: Chair
+  bio: >-
+    Sourav Sengupta is the R&amp;D Group Leader for Future System Architecture (FSA) at CSA, imec. He comes from an interdisciplinary background with a PhD in Computer Science (2014), a Master's in Pure Mathematics (2008), and a Bachelor's in Electronics Engineering (2006). With over 15 years of research experience and more than 10 years of teaching across four countries, he brings a global and cross-disciplinary perspective to innovation and leadership. Sourav is a technical coordinator in the flagship EuroHPC project DARE, leading one of the six Technical Areas, as well as an IMEC team designing and developing scale-out performance model for virtual integration and pathfinding.
+
+- name: Arindam Mallik
+  photo: pics/arindam-mallik.png
+  affiliation: Interuniversity Microelectronics Centre (IMEC)
+  role: Chair
+  bio: >-
+    Arindam Mallik is the Department Director for Compute System Architecture (CSA) at IMEC. He is a technologist enabling HW-SW co-design at the cross-point of AI algorithms, computer architecture, and novel technology solutions. Arindam has spent the past 20 years pushing the boundaries of technology research to provide novel solutions with a direct impact on the semiconductor industry. He has authored or co-authored more than 100 papers in international journals and conference proceedings and holds a number of relevant patents. He received M.S. and PhD degrees in Electrical Engineering and Computer Science from Northwestern University, USA in 2004 and 2008, respectively.
+
+- name: Pablo Balbi
+  photo: pics/pablo-balbi.jpeg
+  affiliation: Barcelona Supercomputing Center (BSC)
+  role: Web Chair
+  bio: >-
+    Pablo Balbi is a Research Engineer at BSC, in the Computer Architecture for Parallel Paradigms group, and a PhD student in both Universitat Politècnica de Catalunya (UPC) and Universidad de Buenos Aires (UBA). Before pivoting to research, he received an equivalent MSc. in Computer Science at UBA, and worked for several years as a software engineer in various companies such as Microsoft, Amazon and Grafana Labs. His current research focuses studying how arithmetic formats, quantization and sparisty can be co-designed at the systems and hardware level, to enable next-generation AI systems.
+
