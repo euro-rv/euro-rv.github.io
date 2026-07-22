@@ -56,8 +56,8 @@ Venue located in conjunction with [the 59th IEEE/ACM International Symposium on 
 
 ## Key Dates {#key-dates}
 
-- **Submission Deadline:** August 31 2026
-- **Notification:** September 30, 2026
+- **Submission Deadline:** August 20 2026
+- **Notification:** September 20, 2026
 - **Workshop Date:** _To be defined_, but candidate dates are October 31 or November 1, 2026.
 
 ## Agenda & Workshop Materials {#agenda-materials}
