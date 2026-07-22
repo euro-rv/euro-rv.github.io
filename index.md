@@ -50,7 +50,7 @@
   emphasizing hardware-software co-design across AI, HPC, and emerging workloads
 </h3>
 
-Venue located in conjunction with [the 59th IEEE/ACM International Symposium on Microarchitecture (MICRO 2026)](https://microarch.org/micro59/). Organized by [Barcelona Supercomputing Center (BSC)](https://www.bsc.es/) and [IMEC](https://www.imec-int.com/).
+Venue located in conjunction with [the 59th IEEE/ACM International Symposium on Microarchitecture (MICRO 2026)](https://microarch.org/micro59/). Organized by [Barcelona Supercomputing Center (BSC)](https://www.bsc.es/) and [Interuniversity Microelectronics Centre (IMEC)](https://www.imec-int.com/).
 
 ****  
 
@@ -115,7 +115,7 @@ and practical systems, in **demo** format.
 
 - We welcome submissions of up to 2 pages (not including references). This is not a strict limit, but authors are encouraged to adhere to it if possible.
 - All submissions must be in PDF format and should follow the main conference [LaTeX template](https://www.microarch.org/micro59/submit/micro59-latex-template.zip).
-- Paper submission system will be defined in the coming weeks.
+- Paper submission will be carried out through EasyChair, using the following link: [https://easychair.org/conferences/?conf=eurorv2026](https://easychair.org/conferences/?conf=eurorv2026).
 - Reviewing will be single-blind: please include all authors information. Changes to the authors list after submission won't be allowed.
 - We welcome submissions that include parts of ongoing work intended for a future conference submission.
 
