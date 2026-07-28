@@ -36,6 +36,9 @@
   h1 { color: #15A9BA; }
   h2 { color: #15A9BA; }
   h3 { color: #1C538E; }
+
+  a.submit-btn { background-color: red; color: white; }
+  a.submit-btn:hover { background-color: #991900; }
 </style>
 
 <div class="nav-buttons">
@@ -44,6 +47,10 @@
   <a href="#key-dates">Key Dates</a>
   <a href="#organizers">Organizers</a>
   <a href="#agenda-materials">Agenda & Materials</a>
+  <a
+    class="submit-btn"
+    href="https://easychair.org/conferences/?conf=eurorv2026"
+  >Submit !</a>
 </div>
 
 <h3 style="color: #E48158;font-style: italic;">
@@ -107,9 +114,10 @@ improving our efforts through community feedback.
 We welcome contributions spanning hardware, software, system architecture, and
 cross-layer co-design. In addition to traditional paper and talk submissions,
 we also strongly encourage demonstrations of mature technologies, prototypes,
-and practical systems, in **demo** format. Depending on the number of
-submissions, **we may also accommodate posters**, especially for early research
-ideas and work in progress.
+and practical systems, in **demo** format.
+
+Depending on the number of submissions, **we may also accommodate posters**,
+especially for early research ideas and work in progress.
 
 ### Topics of Interest
 

@@ -2,7 +2,12 @@
   .agenda-summary {
     font-style: italic;
   }
-  table.agenda { width:100%; border-collapse: collapse; table-layout: fixed; }
+  table.agenda {
+    display: table; /* override Primer's display:block + width:max-content */
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
   table.agenda th, table.agenda td { border: 2px solid #bbb; padding: 8px; text-align:left; }
   table.agenda thead { background:#15A9BB; color:#000; }
   table.agenda tbody { color:#000; }
