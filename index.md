@@ -1,5 +1,6 @@
 <!-- index.md -->
 
+
 <style>
   .nav-buttons {
     text-align: center;
@@ -56,9 +57,10 @@ Venue located in conjunction with [the 59th IEEE/ACM International Symposium on 
 
 ## Key Dates {#key-dates}
 
-- **Submission Deadline:** August 20 2026
+- **Submission Open:** August 1, 2026
+- **Submission Deadline:** August 20, 2026
 - **Notification:** September 20, 2026
-- **Workshop Date:** _To be defined_, but candidate dates are October 31 or November 1, 2026.
+- **Workshop Date:** October 31, 2026. 8AM - 12PM EET
 
 ## Agenda & Workshop Materials {#agenda-materials}
 
@@ -105,7 +107,9 @@ improving our efforts through community feedback.
 We welcome contributions spanning hardware, software, system architecture, and
 cross-layer co-design. In addition to traditional paper and talk submissions,
 we also strongly encourage demonstrations of mature technologies, prototypes,
-and practical systems, in **demo** format.
+and practical systems, in **demo** format. Depending on the number of
+submissions, **we may also accommodate posters**, especially for early research
+ideas and work in progress.
 
 ### Topics of Interest
 
