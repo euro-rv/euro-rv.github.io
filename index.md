@@ -217,3 +217,30 @@ especially for early research ideas and work in progress.
   {% endfor %}
 
 </div>
+
+### Program Committee
+
+<style>
+  .program-committee {
+    column-count: 2;
+    column-gap: 2rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .program-committee li {
+    break-inside: avoid;
+    margin-bottom: 0.35rem;
+  }
+  @media (max-width: 640px) {
+    .program-committee {
+      column-count: 1;
+    }
+  }
+</style>
+
+<ul class="program-committee">
+  {% for member in site.data.program_committee %}
+  <li><a href="mailto:{{ member.email }}">{{ member.name }}</a> ({{ member.affiliation }})</li>
+  {% endfor %}
+</ul>
