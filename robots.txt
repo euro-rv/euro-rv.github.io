@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://euro-rv.github.io/sitemap.xml

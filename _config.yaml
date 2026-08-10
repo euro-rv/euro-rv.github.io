@@ -1,8 +1,17 @@
 remote_theme: pages-themes/primer@v0.6.0
 plugins:
   - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+url: "https://euro-rv.github.io"
+lang: en
+logo: /pics/euro-rv-logo.svg
 
 title: Euro-RV — European Workshop on Hardware-Software Co-Design for Future RISC-V Architectures
 subtitle: October 31, 2026. Athens, Greece. Co-located @ MICRO 2026
 
-description: Euro-RV @ MICRO 2026
+description: >-
+  EuroHPC DARE workshop and MICRO 2026 co-located event on RISC-V pathfinding research,
+  chiplets, VPUs, AIPUs, and matrix extensions (IME, AME). Call for papers on
+  hardware-software co-design for HPC and AI. Organized by BSC and IMEC.

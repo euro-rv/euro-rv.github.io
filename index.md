@@ -1,3 +1,13 @@
+---
+layout: default
+title: Euro-RV 2026 — DARE RISC-V Workshop @ MICRO
+description: >-
+  Call for papers and contributions on EuroHPC RISC-V pathfinding research:
+  hardware-software co-design for HPC chiplets, VPUs, AIPUs, and RISC-V matrix
+  extensions (IME, AME). DARE workshop co-located with MICRO 2026, Athens.
+image: /pics/euro-rv-logo.svg
+---
+
 <!-- index.md -->
 
 
@@ -58,7 +68,7 @@
   emphasizing hardware-software co-design across AI, HPC, and emerging workloads
 </h3>
 
-Venue located in conjunction with [the 59th IEEE/ACM International Symposium on Microarchitecture (MICRO 2026)](https://microarch.org/micro59/). Organized by [Barcelona Supercomputing Center (BSC)](https://www.bsc.es/) and [Interuniversity Microelectronics Centre (IMEC)](https://www.imec-int.com/).
+Euro-RV is a **MICRO 2026 workshop** held in conjunction with [the 59th IEEE/ACM International Symposium on Microarchitecture (MICRO 2026)](https://microarch.org/micro59/). Organized by [Barcelona Supercomputing Center (BSC)](https://www.bsc.es/) and [Interuniversity Microelectronics Centre (IMEC)](https://www.imec-int.com/), technical partners in the [EuroHPC DARE project](https://dare-riscv.eu/) (Digital Autonomy with RISC-V in Europe).
 
 ****  
 
@@ -87,16 +97,18 @@ At the same time, RISC-V has evolved from an academic initiative into a widely
 adopted open standard embraced by both industry and academia. Its open and
 modular instruction set architecture provides unprecedented flexibility for
 researchers and companies to explore domain-specific hardware acceleration,
-custom instruction extensions, specialized vector and AI processing units, and
-tightly integrated hardware-software optimizations. This openness significantly
+custom instruction extensions, RISC-V matrix extensions (IME and AME),
+specialized vector processing units (VPUs), AI processing units (AIPUs),
+chiplet-based heterogeneous systems, and tightly integrated hardware-software
+optimizations. This openness significantly
 lowers the barrier for architectural experimentation, enables faster innovation
 cycles compared to traditional closed ISAs, and creates new opportunities for
 collaborative research and industrial adoption. 
 
-**Euro-RV** aims to bring together researchers exploring forward-looking ideas
-for next-generation RISC-V computing systems. The workshop emphasizes
-pathfinding research: exploratory concepts, early-stage architectures, and
-enabling technologies that may shape future large-scale deployments and
+**Euro-RV** aims to bring together researchers and DARE partners exploring
+forward-looking ideas for next-generation RISC-V computing systems. The workshop
+emphasizes pathfinding research: exploratory concepts, early-stage architectures, and
+enabling technologies that may shape future deployments and large-scale
 computing platforms.
 
 The workshop program will consist of a combination of invited talks, demos, and
@@ -112,7 +124,8 @@ improving our efforts through community feedback.
 ## Call for Contributions {#call-for-contributions}
 
 We welcome contributions spanning hardware, software, system architecture, and
-cross-layer co-design. In addition to traditional paper and talk submissions,
+cross-layer co-design for RISC-V systems — including chiplets, VPUs, AIPUs,
+and IME/AME matrix extensions. In addition to traditional paper and talk submissions,
 we also strongly encourage demonstrations of mature technologies, prototypes,
 and practical systems, in **demo** format.
 
