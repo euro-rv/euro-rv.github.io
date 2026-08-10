@@ -6,4 +6,5 @@ vendor/
 .bundle/
 Gemfile.lock
 *.txt
+!robots.txt
 .DS_Store
