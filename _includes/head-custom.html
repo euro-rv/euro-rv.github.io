@@ -9,6 +9,23 @@
   gtag('js', new Date());
 
   gtag('config', 'G-RQV7EZ6LD5');
+
+  document.addEventListener('DOMContentLoaded', function () {
+    document.addEventListener('click', function (e) {
+      var link = e.target.closest('a');
+      if (!link) return;
+
+      var href = link.getAttribute('href') || '';
+      var isCfcNav = href === '#call-for-contributions';
+      var isEasyChair = href.indexOf('easychair.org') !== -1;
+      if (!isCfcNav && !isEasyChair) return;
+
+      gtag('event', 'call_for_contributions_click', {
+        link_url: link.href,
+        link_text: (link.textContent || '').trim()
+      });
+    });
+  });
 </script>
 
 <!-- Site descriptor for Google robot -->
