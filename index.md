@@ -75,7 +75,7 @@ Euro-RV is a **MICRO 2026 workshop** held in conjunction with [the 59th IEEE/ACM
 ## Key Dates {#key-dates}
 
 - **Submission Open:** August 1, 2026
-- **Submission Deadline:** August 20, 2026
+- <span style="color: red">**Submission Deadline (extended):**</span> ~~August 20, 2026~~ August 27, 2026
 - **Notification:** September 20, 2026
 - **Workshop Date:** October 31, 2026. 8AM - 12PM EET
 
