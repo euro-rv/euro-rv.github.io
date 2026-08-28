@@ -47,8 +47,16 @@ image: /pics/euro-rv-logo.svg
   h2 { color: #15A9BA; }
   h3 { color: #1C538E; }
 
-  a.submit-btn { background-color: red; color: white; }
-  a.submit-btn:hover { background-color: #991900; }
+  details.call-for-contributions {
+    margin-bottom: 1.5rem;
+  }
+  details.call-for-contributions > summary {
+    cursor: pointer;
+    color: #15A9BA;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 0.75rem;
+  }
 </style>
 
 <div class="nav-buttons">
@@ -57,10 +65,6 @@ image: /pics/euro-rv-logo.svg
   <a href="#key-dates">Key Dates</a>
   <a href="#organizers">Organizers</a>
   <a href="#agenda-materials">Agenda & Materials</a>
-  <a
-    class="submit-btn"
-    href="https://easychair.org/conferences/?conf=eurorv2026"
-  >Submit !</a>
 </div>
 
 <h3 style="color: #E48158;font-style: italic;">
@@ -74,8 +78,8 @@ Euro-RV is a **MICRO 2026 workshop** held in conjunction with [the 59th IEEE/ACM
 
 ## Key Dates {#key-dates}
 
-- **Submission Open:** August 1, 2026
-- <span style="color: red">**Submission Deadline (extended):**</span> ~~August 20, 2026~~ August 27, 2026
+- ~~**Submission Open:** August 1, 2026~~
+- ~~**Submission Deadline (extended):** August 27, 2026~~
 - **Notification:** September 20, 2026
 - **Workshop Date:** October 31, 2026. 8AM - 12PM EET
 
@@ -121,7 +125,8 @@ improving our efforts through community feedback.
 
 **Time & Location:** TBD — half-day workshop, co-located with [MICRO 2026](https://www.microarch.org/micro59/) in [Athens, Greece](https://maps.app.goo.gl/fDhQVDkrMd4HcB787).
 
-## Call for Contributions {#call-for-contributions}
+<details class="call-for-contributions" id="call-for-contributions" markdown="1">
+<summary>Call for Contributions (submission closed)</summary>
 
 We welcome contributions spanning hardware, software, system architecture, and
 cross-layer co-design for RISC-V systems — including chiplets, VPUs, AIPUs,
@@ -143,6 +148,8 @@ especially for early research ideas and work in progress.
 - Paper submission will be carried out through EasyChair, using the following link: [https://easychair.org/conferences/?conf=eurorv2026](https://easychair.org/conferences/?conf=eurorv2026).
 - Reviewing will be single-blind: please include all authors information. Changes to the authors list after submission won't be allowed.
 - We welcome submissions that include parts of ongoing work intended for a future conference submission.
+
+</details>
 
 ## Organizers {#organizers}
 
