@@ -87,6 +87,8 @@ Euro-RV is a **MICRO 2026 workshop** held in conjunction with [the 59th IEEE/ACM
 
 {% include_relative agenda.html %}
 
+{% include_relative posters.html %}
+
 ## Workshop Description {#description}
 
 The increasing demands and rapid evolution of AI, vector processing,
