@@ -2,9 +2,7 @@
 layout: default
 title: Euro-RV 2026 — DARE RISC-V Workshop @ MICRO
 description: >-
-  Call for papers and contributions on EuroHPC RISC-V pathfinding research:
-  hardware-software co-design for HPC chiplets, VPUs, AIPUs, and RISC-V matrix
-  extensions (IME, AME). DARE workshop co-located with MICRO 2026, Athens.
+  DARE workshop co-located with MICRO 2026, Athens. Topics are hardware-software co-design for HPC chiplets, VPUs, AIPUs, and RISC-V matrix extensions (IME, AME). 
 image: /pics/euro-rv-logo.svg
 ---
 
@@ -80,7 +78,7 @@ Euro-RV is a **MICRO 2026 workshop** held in conjunction with [the 59th IEEE/ACM
 
 - ~~**Submission Open:** August 1, 2026~~
 - ~~**Submission Deadline (extended):** August 27, 2026~~
-- **Notification:** September 20, 2026
+- ~~**Notification:** September 20, 2026~~
 - **Workshop Date:** October 31, 2026. 8AM - 12PM EET
 
 ## Agenda & Workshop Materials {#agenda-materials}
