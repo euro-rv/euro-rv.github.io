@@ -26,6 +26,9 @@
     text-decoration: none;
     cursor: pointer;
   }
+  .abstract {
+    font-weight: lighter;
+  }
 </style>
 
 <table class="agenda">
@@ -51,8 +54,16 @@
     <tr>
       <td>8:10 - 8:40</td>
       <td>
-          <b>Keynote</b><br>
-          <a href="https://www.cslab.ntua.gr/~pnevmati/" target="_blank">Dionisios N. Pnevmatikatos</a>
+          <b>Keynote: </b>Towards efficient, virtualized, multi tenant reconfigurable accelerator deployment<br>
+          <a href="https://www.cslab.ntua.gr/~pnevmati/" target="_blank">Dionisios N. Pnevmatikatos</a><br>
+          <details>
+            <summary>Abstract</summary>
+            <p class="abstract">
+            Server-grade FPGA deployments form a viable substrate for flexible accelerator deployment. The simplest deployment approach is to assigning an entire device to one application, which can leave compute and memory resources underutilized. Multi-tenancy offers a way to improve utilization, provided that resource sharing preserves isolation and the performance benefits of hardware acceleration. However, muiti-tenancy support requires more than a simple partitioning the reconfigurable fabric. Hardware tasks need controlled access to shared memory, while dependent tasks must communicate seamlessly when they are scheduled or reconfigured independently. This talk examines the architectural role of the FPGA shell in supporting these requirements, including address-space protection, resource sharing, and dataflow execution supporting both memory-mapped and streaming tasks on a shared device. <br />
+
+            The talk will conclude with a brief presentation of our ongoing activities in efficient multiple page size support including the benefits of SVNAPOT-like page allocation and the  challenges it imposes on TLB implementations. 
+            </p>
+          </details>
       </td>
     </tr>
     <tr>
