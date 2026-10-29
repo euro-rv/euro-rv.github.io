@@ -45,6 +45,47 @@ image: /pics/euro-rv-logo.svg
   h2 { color: #15A9BA; }
   h3 { color: #1C538E; }
 
+  .room-banner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    background-color: #15A9BA;
+    color: white;
+    border-radius: 8px;
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .room-item {
+    flex: 1 1 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .room-icon {
+    font-size: 1.75rem;
+  }
+  .room-label {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    opacity: 0.85;
+    margin-top: 0.25rem;
+  }
+  .room-value {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-top: 0.15rem;
+  }
+  @media (max-width: 640px) {
+    .room-banner {
+      flex-direction: column;
+    }
+    .room-item {
+      flex: 1 1 auto;
+    }
+  }
+
   details.call-for-contributions {
     margin-bottom: 1.5rem;
   }
@@ -63,6 +104,7 @@ image: /pics/euro-rv-logo.svg
 </style>
 
 <div class="nav-buttons">
+  <a href="#venue-info">Venue Info</a>
   <a href="#description">Description</a>
   <a href="#call-for-contributions">Call for Contributions</a>
   <a href="#key-dates">Key Dates</a>
@@ -78,6 +120,26 @@ image: /pics/euro-rv-logo.svg
 Euro-RV is a **MICRO 2026 workshop** held in conjunction with [the 59th IEEE/ACM International Symposium on Microarchitecture (MICRO 2026)](https://microarch.org/micro59/). Organized by [Barcelona Supercomputing Center (BSC)](https://www.bsc.es/) and [Interuniversity Microelectronics Centre (IMEC)](https://www.imec-int.com/), technical partners in the [EuroHPC DARE project](https://dare-riscv.eu/) (Digital Autonomy with RISC-V in Europe).
 
 ****  
+
+## Venue Information {#venue-info}
+
+<div class="room-banner">
+  <div class="room-item">
+    <div class="room-icon">📅</div>
+    <div class="room-label">Date</div>
+    <div class="room-value">31 October, Saturday</div>
+  </div>
+  <div class="room-item">
+    <div class="room-icon">🕗</div>
+    <div class="room-label">Time</div>
+    <div class="room-value">8:00 – 12:00 EEST</div>
+  </div>
+  <div class="room-item">
+    <div class="room-icon">📍</div>
+    <div class="room-label">Location</div>
+    <div class="room-value">Ypsilon III–IV</div>
+  </div>
+</div>
 
 ## Key Dates {#key-dates}
 
@@ -139,7 +201,7 @@ We are committed to fostering an inclusive and diverse workshop community,
 promoting broad participation among organizers and speakers, and continuously
 improving our efforts through community feedback.
 
-**Time & Location:** TBD — half-day workshop, co-located with [MICRO 2026](https://www.microarch.org/micro59/) in [Athens, Greece](https://maps.app.goo.gl/fDhQVDkrMd4HcB787).
+**Time & Location:** Saturday, 31 October 2026, 8:00 – 12:00 EEST, room Ypsilon III–IV — half-day workshop, co-located with [MICRO 2026](https://www.microarch.org/micro59/) in [Athens, Greece](https://maps.app.goo.gl/fDhQVDkrMd4HcB787).
 
 <details class="call-for-contributions" id="call-for-contributions" markdown="1">
 <summary>Call for Contributions (submission closed)</summary>
