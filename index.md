@@ -45,48 +45,24 @@ image: /pics/euro-rv-logo.svg
   h2 { color: #15A9BA; }
   h3 { color: #1C538E; }
 
-  .room-banner {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    background-color: #15A9BA;
-    color: white;
-    border-radius: 8px;
-    padding: 1.25rem 1.5rem;
-    margin-bottom: 1.5rem;
+  .archival-banner {
+    background: #f2f8fa;
+    border: 2px solid #bbb;
+    border-left: 4px solid #15A9BA;
+    padding: 0.85rem 1rem;
+    margin: 1rem 0 1.5rem;
+    color: #000;
+    font-weight: 400;
   }
-  .room-item {
-    flex: 1 1 180px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  .room-icon {
-    font-size: 1.75rem;
-  }
-  .room-label {
-    font-size: 0.8rem;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-    opacity: 0.85;
-    margin-top: 0.25rem;
-  }
-  .room-value {
-    font-size: 1.4rem;
-    font-weight: bold;
-    margin-top: 0.15rem;
-  }
-  @media (max-width: 640px) {
-    .room-banner {
-      flex-direction: column;
-    }
-    .room-item {
-      flex: 1 1 auto;
-    }
+
+  details.author-resources > summary {
+    cursor: pointer;
+    font-style: italic;
+    margin-bottom: 0.5rem;
   }
 
   details.call-for-contributions {
+    margin-top: 2rem;
     margin-bottom: 1.5rem;
   }
   details.call-for-contributions > summary {
@@ -96,20 +72,13 @@ image: /pics/euro-rv-logo.svg
     font-weight: bold;
     margin-bottom: 0.75rem;
   }
-  details.key-dates > summary {
-    cursor: pointer;
-    font-style: italic;
-    margin-bottom: 0.5rem;
-  }
 </style>
 
 <div class="nav-buttons">
-  <a href="#venue-info">Venue Info</a>
+  <a href="#agenda-materials">Agenda &amp; Materials</a>
+  <a href="#posters">Posters</a>
   <a href="#description">Description</a>
-  <a href="#call-for-contributions">Call for Contributions</a>
-  <a href="#key-dates">Key Dates</a>
   <a href="#organizers">Organizers</a>
-  <a href="#agenda-materials">Agenda & Materials</a>
 </div>
 
 <h3 style="color: #E48158;font-style: italic;">
@@ -119,51 +88,30 @@ image: /pics/euro-rv-logo.svg
 
 Euro-RV is a **MICRO 2026 workshop** held in conjunction with [the 59th IEEE/ACM International Symposium on Microarchitecture (MICRO 2026)](https://microarch.org/micro59/). Organized by [Barcelona Supercomputing Center (BSC)](https://www.bsc.es/) and [Interuniversity Microelectronics Centre (IMEC)](https://www.imec-int.com/), technical partners in the [EuroHPC DARE project](https://dare-riscv.eu/) (Digital Autonomy with RISC-V in Europe).
 
-****  
-
-## Venue Information {#venue-info}
-
-<div class="room-banner">
-  <div class="room-item">
-    <div class="room-icon">📅</div>
-    <div class="room-label">Date</div>
-    <div class="room-value">31 October, Saturday</div>
-  </div>
-  <div class="room-item">
-    <div class="room-icon">🕗</div>
-    <div class="room-label">Time</div>
-    <div class="room-value">8:00 – 12:00 EEST</div>
-  </div>
-  <div class="room-item">
-    <div class="room-icon">📍</div>
-    <div class="room-label">Location</div>
-    <div class="room-value">Ypsilon III–IV</div>
-  </div>
-</div>
-
-## Key Dates {#key-dates}
-
-<details class="key-dates" markdown="1">
-<summary>Show key dates</summary>
-
-- ~~**Submission Open:** August 1, 2026~~
-- ~~**Submission Deadline (extended):** August 27, 2026~~
-- ~~**Notification:** September 20, 2026~~
-- **Workshop Date:** October 31, 2026. 8AM - 12PM EET
-
-</details>
+<p class="archival-banner">
+  <strong>Euro-RV 2026</strong> — workshop held 31 October 2026 (8:00–12:00 EEST, Ypsilon III–IV, Athens). Slides and posters are archived below.
+</p>
 
 ## Agenda & Workshop Materials {#agenda-materials}
 
+{% include workshop-shared-styles.html %}
+
 **Workshop overview:** [Euro-RV 2026 Overview (slides, PDF)](https://drive.google.com/file/d/1u1ErDFgEt0HGV_jmUpAExqAuy5Ohzt44/view)
 
-### Presentation Slides {#presentation-guidelines}
+<details class="author-resources" markdown="1">
+<summary>Author resources (slide template)</summary>
 
 The workshop slide template is hosted on [Google Slides](https://docs.google.com/presentation/d/1JFSLcXdE5NTWTbcIcCb27Yfbrfr8igz3NZcDyzl_ZA8/view?usp=sharing). It includes guidelines and style and content recommendations for **talks**, **demos**, and **posters**.
+
+</details>
 
 ### Agenda
 
 {% include_relative agenda.html %}
+
+### Posters {#posters}
+
+<i>Accepted for archival.</i>
 
 {% include_relative posters.html %}
 
@@ -204,32 +152,6 @@ promoting broad participation among organizers and speakers, and continuously
 improving our efforts through community feedback.
 
 **Time & Location:** Saturday, 31 October 2026, 8:00 – 12:00 EEST, room Ypsilon III–IV — half-day workshop, co-located with [MICRO 2026](https://www.microarch.org/micro59/) in [Athens, Greece](https://maps.app.goo.gl/fDhQVDkrMd4HcB787).
-
-<details class="call-for-contributions" id="call-for-contributions" markdown="1">
-<summary>Call for Contributions (submission closed)</summary>
-
-We welcome contributions spanning hardware, software, system architecture, and
-cross-layer co-design for RISC-V systems — including chiplets, VPUs, AIPUs,
-and IME/AME matrix extensions. In addition to traditional paper and talk submissions,
-we also strongly encourage demonstrations of mature technologies, prototypes,
-and practical systems, in **demo** format.
-
-Depending on the number of submissions, **we may also accommodate posters**,
-especially for early research ideas and work in progress.
-
-### Topics of Interest
-
-{% include_relative topics-of-interest.html %}
-
-### Submission Instructions
-
-- We welcome submissions of up to 2 pages (not including references). This is not a strict limit, but authors are encouraged to adhere to it if possible.
-- All submissions must be in PDF format and should follow the main conference [LaTeX template](https://www.microarch.org/micro59/submit/micro59-latex-template.zip).
-- Paper submission will be carried out through EasyChair, using the following link: [https://easychair.org/conferences/?conf=eurorv2026](https://easychair.org/conferences/?conf=eurorv2026).
-- Reviewing will be single-blind: please include all authors information. Changes to the authors list after submission won't be allowed.
-- We welcome submissions that include parts of ongoing work intended for a future conference submission.
-
-</details>
 
 ## Organizers {#organizers}
 
@@ -344,3 +266,29 @@ especially for early research ideas and work in progress.
   <li><a href="mailto:{{ member.email }}">{{ member.name }}</a> ({{ member.affiliation }})</li>
   {% endfor %}
 </ul>
+
+<details class="call-for-contributions" id="call-for-contributions" markdown="1">
+<summary>Call for Contributions (submission closed)</summary>
+
+We welcome contributions spanning hardware, software, system architecture, and
+cross-layer co-design for RISC-V systems — including chiplets, VPUs, AIPUs,
+and IME/AME matrix extensions. In addition to traditional paper and talk submissions,
+we also strongly encourage demonstrations of mature technologies, prototypes,
+and practical systems, in **demo** format.
+
+Depending on the number of submissions, **we may also accommodate posters**,
+especially for early research ideas and work in progress.
+
+### Topics of Interest
+
+{% include_relative topics-of-interest.html %}
+
+### Submission Instructions
+
+- We welcome submissions of up to 2 pages (not including references). This is not a strict limit, but authors are encouraged to adhere to it if possible.
+- All submissions must be in PDF format and should follow the main conference [LaTeX template](https://www.microarch.org/micro59/submit/micro59-latex-template.zip).
+- Paper submission will be carried out through EasyChair, using the following link: [https://easychair.org/conferences/?conf=eurorv2026](https://easychair.org/conferences/?conf=eurorv2026).
+- Reviewing will be single-blind: please include all authors information. Changes to the authors list after submission won't be allowed.
+- We welcome submissions that include parts of ongoing work intended for a future conference submission.
+
+</details>
