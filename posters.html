@@ -2,7 +2,6 @@
   ul.workshop-posters {
     width: 100%;
     border: 2px solid #bbb;
-    border-collapse: collapse;
     padding: 0;
     margin: 1.25rem 0 0;
     list-style: none;
@@ -23,41 +22,224 @@
   ul.workshop-posters li:nth-child(even) {
     background: #f2f8fa;
   }
+
+  .poster-carousel-wrap {
+    margin: 1.25rem 0 0;
+    border: 2px solid #bbb;
+    color: #000;
+    background: #fff;
+  }
+  .poster-carousel-viewport {
+    position: relative;
+    background: #f2f8fa;
+    border-bottom: 2px solid #bbb;
+  }
+  .poster-carousel-viewport img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: min(72vh, 720px);
+    object-fit: contain;
+    margin: 0 auto;
+    background: #f2f8fa;
+  }
+  .poster-carousel-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 2px solid #bbb;
+    background: rgba(255, 255, 255, 0.92);
+    color: #000;
+    font-size: 1.35rem;
+    line-height: 1;
+    width: 2.25rem;
+    height: 2.25rem;
+    cursor: pointer;
+    padding: 0;
+  }
+  .poster-carousel-nav:hover,
+  .poster-carousel-nav:focus {
+    background: #fff;
+    color: #0366d6;
+    outline: none;
+  }
+  .poster-carousel-nav.prev { left: 0.5rem; }
+  .poster-carousel-nav.next { right: 0.5rem; }
+  .poster-carousel-meta {
+    padding: 10px 12px;
+    font-weight: 300;
+    border-bottom: 2px solid #bbb;
+  }
+  .poster-carousel-meta b {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+  .poster-carousel-meta .poster-counter {
+    float: right;
+    font-size: 0.9em;
+    color: #444;
+    font-weight: 400;
+  }
+  .poster-carousel-actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.5rem;
+    margin-top: 8px;
+  }
+  .poster-carousel-actions .chip {
+    display: inline-block;
+    color: #3e67c9;
+    font-size: 0.85em;
+    font-weight: 500;
+    line-height: 1.4;
+    text-decoration: none;
+    cursor: pointer;
+    user-select: none;
+  }
+  .poster-carousel-actions a.chip:hover {
+    color: #0366d6;
+    text-decoration: underline;
+  }
+  .poster-carousel-thumbs {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    padding: 10px 12px;
+    background: #fff;
+  }
+  .poster-carousel-thumbs button {
+    flex: 0 0 auto;
+    border: 2px solid #bbb;
+    padding: 0;
+    background: #fff;
+    cursor: pointer;
+    width: 88px;
+    opacity: 0.75;
+  }
+  .poster-carousel-thumbs button[aria-current="true"] {
+    border-color: #15A9BB;
+    opacity: 1;
+  }
+  .poster-carousel-thumbs button img {
+    display: block;
+    width: 88px;
+    height: 50px;
+    object-fit: cover;
+    object-position: top center;
+  }
+  .poster-carousel-thumbs button:focus {
+    outline: 2px solid #0366d6;
+    outline-offset: 2px;
+  }
 </style>
 
 <p><i>Posters: Accepted for archival.</i></p>
 
+{% assign poster_slides = site.data.posters | where_exp: "item", "item.image != nil" %}
+{% assign poster_list_only = site.data.posters | where_exp: "item", "item.image == nil" %}
+
+{% if poster_slides.size > 0 %}
+<div class="poster-carousel-wrap" id="poster-carousel" data-count="{{ poster_slides.size }}" tabindex="0">
+  <div class="poster-carousel-viewport">
+    <button type="button" class="poster-carousel-nav prev" aria-label="Previous poster" data-action="prev">‹</button>
+    {% for poster in poster_slides %}
+    <img
+      class="poster-slide-image"
+      data-index="{{ forloop.index0 }}"
+      src="{{ poster.image | relative_url }}"
+      alt="{{ poster.title | escape }} — poster slide"
+      {% unless forloop.first %}hidden{% endunless %}
+      loading="{% if forloop.first %}eager{% else %}lazy{% endif %}"
+      decoding="async"
+    >
+    {% endfor %}
+    <button type="button" class="poster-carousel-nav next" aria-label="Next poster" data-action="next">›</button>
+  </div>
+  {% for poster in poster_slides %}
+  <div
+    class="poster-carousel-meta poster-slide-meta"
+    data-index="{{ forloop.index0 }}"
+    {% unless forloop.first %}hidden{% endunless %}
+  >
+    <span class="poster-counter" aria-live="polite">{{ forloop.index }} / {{ poster_slides.size }}</span>
+    <b>{{ poster.title }}</b>
+    {{ poster.authors }}
+    {% if poster.slides_url %}
+    <div class="poster-carousel-actions">
+      <a class="chip" href="{{ poster.slides_url }}" target="_blank" rel="noopener">Slides</a>
+    </div>
+    {% endif %}
+  </div>
+  {% endfor %}
+  <div class="poster-carousel-thumbs" role="tablist" aria-label="Poster thumbnails">
+    {% for poster in poster_slides %}
+    <button
+      type="button"
+      role="tab"
+      aria-label="{{ poster.title | escape }}"
+      aria-current="{% if forloop.first %}true{% else %}false{% endif %}"
+      data-index="{{ forloop.index0 }}"
+    >
+      <img src="{{ poster.image | relative_url }}" alt="" width="88" height="50" loading="lazy" decoding="async">
+    </button>
+    {% endfor %}
+  </div>
+</div>
+{% endif %}
+
+{% if poster_list_only.size > 0 %}
 <ul class="workshop-posters">
+  {% for poster in poster_list_only %}
   <li>
-    <b>Semi-Automated Workload Abstraction with a Static Analyzer</b><br>
-    Hadi Sadeghi Taheri
+    <b>{{ poster.title }}</b><br>
+    {{ poster.authors }}
+    {% if poster.slides_url %}
+    <div class="poster-carousel-actions">
+      <a class="chip" href="{{ poster.slides_url }}" target="_blank" rel="noopener">Slides</a>
+    </div>
+    {% endif %}
   </li>
-  <li>
-    <b>On-chip Integration of a Parametric Matrix Core in RISC-V Processors</b><br>
-    Giovanni Santangelo, Juan-David Guerrero-Balaguera, Matteo Sonza Reorda and Josie Esteban Rodriguez Condia
-  </li>
-  <li>
-    <b>TALU: A Reconfigurable Tiled-ALU Grid in the RISC-V Execute Stage for Near-Free Spatial Reduction and Deep Operation Chaining</b><br>
-    Ali Emre Oztas, Mahir Demir and Can Erim Karşal
-  </li>
-  <li>
-    <b>ET-Comparator: Constraint-Based Alignment of Execution Graphs for Workload Abstraction Validation</b><br>
-    Ramzi Baaguigui, Francesco Ratto, Subhomoy Bhattacharyya, Timon Evenblij and Uras Tos
-  </li>
-  <li>
-    <b>CoDMA: Cooperative Data Movement for Multi-Core NPU Architectures</b><br>
-    Sungwook Kang, Joungmin Oh, Tommaso Marinelli and Konstantinos Tovletoglou
-  </li>
-  <li>
-    <b>DMX: A Decoupled Matrix Accelerator for a Linux-capable RISC-V SoC</b><br>
-    Ilias Vrynas, Evangelos Makrakis, Iasonas Georgakas, Georgios Ieronymakis and Vassilis Papaefstathiou
-  </li>
-  <li>
-    <b>Characterizing SpGEMM on Commodity RISC-V Vector Hardware: Guiding Locality Design</b><br>
-    Ayokunle Amodu
-  </li>
-  <li>
-    <b>Prototyping a Massively Multi-threaded In-order Superscalar RISC-V Core as Accelerator</b><br>
-    Georgios-Michail Matzouranis, Sotirios Totomis, Nikolaos Dimou, Georgios Ieronymakis and Vassilis Papaefstathiou
-  </li>
+  {% endfor %}
 </ul>
+{% endif %}
+
+<script>
+(function () {
+  var root = document.getElementById("poster-carousel");
+  if (!root) return;
+
+  var images = root.querySelectorAll(".poster-slide-image");
+  var metas = root.querySelectorAll(".poster-slide-meta");
+  var thumbs = root.querySelectorAll(".poster-carousel-thumbs button");
+  var total = images.length;
+  var index = 0;
+
+  function show(i) {
+    index = (i + total) % total;
+    images.forEach(function (img, n) {
+      img.hidden = n !== index;
+    });
+    metas.forEach(function (meta, n) {
+      meta.hidden = n !== index;
+    });
+    thumbs.forEach(function (btn, n) {
+      btn.setAttribute("aria-current", n === index ? "true" : "false");
+    });
+  }
+
+  root.addEventListener("click", function (event) {
+    var action = event.target.getAttribute("data-action");
+    if (action === "prev") show(index - 1);
+    if (action === "next") show(index + 1);
+    var thumb = event.target.closest(".poster-carousel-thumbs button");
+    if (thumb) show(Number(thumb.getAttribute("data-index")));
+  });
+
+  root.addEventListener("keydown", function (event) {
+    if (event.key === "ArrowLeft") show(index - 1);
+    if (event.key === "ArrowRight") show(index + 1);
+  });
+})();
+</script>

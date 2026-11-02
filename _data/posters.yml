@@ -1,0 +1,40 @@
+# Accepted archival posters. Omit `image` and `slides_url` to show title-only in the list.
+- title: Semi-Automated Workload Abstraction with a Static Analyzer
+  authors: Hadi Sadeghi Taheri
+  slides_url: https://drive.google.com/file/d/1eJRAyzwpD0X5CgHJQBM-sBuWG2XNE8rD/view
+  image: /pics/posters/2026/static-analyzer.webp
+
+- title: On-chip Integration of a Parametric Matrix Core in RISC-V Processors
+  authors: Giovanni Santangelo, Juan-David Guerrero-Balaguera, Matteo Sonza Reorda and Josie Esteban Rodriguez Condia
+  slides_url: https://drive.google.com/file/d/1gGLrwU4h320fQH3_T2EWKbuKoT0nU4dC/view
+  image: /pics/posters/2026/matrix-core.webp
+
+- title: "TALU: A Reconfigurable Tiled-ALU Grid in the RISC-V Execute Stage for Near-Free Spatial Reduction and Deep Operation Chaining"
+  authors: Ali Emre Oztas, Mahir Demir and Can Erim Karşal
+  slides_url: https://drive.google.com/file/d/1gYC6qvAsiM0xa5m1PfLrAoloIOMzkm04/view
+  image: /pics/posters/2026/talu.webp
+
+- title: "ET-Comparator: Constraint-Based Alignment of Execution Graphs for Workload Abstraction Validation"
+  authors: Ramzi Baaguigui, Francesco Ratto, Subhomoy Bhattacharyya, Timon Evenblij and Uras Tos
+  slides_url: https://drive.google.com/file/d/198fMhfbDoCF11IVSpMP3wW3k6VHlDC1t/view
+  image: /pics/posters/2026/et-comparator.webp
+
+- title: "CoDMA: Cooperative Data Movement for Multi-Core NPU Architectures"
+  authors: Sungwook Kang, Joungmin Oh, Tommaso Marinelli and Konstantinos Tovletoglou
+  slides_url: https://drive.google.com/file/d/13HYK57RdM35xyv2zBHuKDakCpm285c9a/view
+  image: /pics/posters/2026/codma.webp
+
+- title: "DMX: A Decoupled Matrix Accelerator for a Linux-capable RISC-V SoC"
+  authors: Ilias Vrynas, Evangelos Makrakis, Iasonas Georgakas, Georgios Ieronymakis and Vassilis Papaefstathiou
+  slides_url: https://drive.google.com/file/d/17lyIDmZhKlYoMR9RCZx3KrKQzzsISrKZ/view
+  image: /pics/posters/2026/dmx.webp
+
+- title: "Characterizing SpGEMM on Commodity RISC-V Vector Hardware: Guiding Locality Design"
+  authors: Ayokunle Amodu
+  slides_url: https://drive.google.com/file/d/1Ly-54osgzAoFR_YzdM2kLJIOBmHscc0b/view
+  image: /pics/posters/2026/spgemm.webp
+
+- title: Prototyping a Massively Multi-threaded In-order Superscalar RISC-V Core as Accelerator
+  authors: Georgios-Michail Matzouranis, Sotirios Totomis, Nikolaos Dimou, Georgios Ieronymakis and Vassilis Papaefstathiou
+  slides_url: https://drive.google.com/file/d/1ZUITuDm7koUkaRCm4BDLqS7ewBFLHHuL/view
+  image: /pics/posters/2026/superscalar-rv.webp
