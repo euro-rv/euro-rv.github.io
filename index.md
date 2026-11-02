@@ -155,6 +155,8 @@ Euro-RV is a **MICRO 2026 workshop** held in conjunction with [the 59th IEEE/ACM
 
 ## Agenda & Workshop Materials {#agenda-materials}
 
+**Workshop overview:** [Euro-RV 2026 Overview (slides, PDF)](https://drive.google.com/file/d/1u1ErDFgEt0HGV_jmUpAExqAuy5Ohzt44/view)
+
 ### Presentation Slides {#presentation-guidelines}
 
 The workshop slide template is hosted on [Google Slides](https://docs.google.com/presentation/d/1JFSLcXdE5NTWTbcIcCb27Yfbrfr8igz3NZcDyzl_ZA8/view?usp=sharing). It includes guidelines and style and content recommendations for **talks**, **demos**, and **posters**.
